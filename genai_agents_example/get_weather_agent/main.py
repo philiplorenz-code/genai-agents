@@ -12,7 +12,7 @@ BASE_URL = "http://api.weatherapi.com/v1/forecast.json"
 REQUEST_KEY = os.environ.get("REQUEST_KEY")
 
 session = GenAISession(
-    jwt_token=""
+    jwt_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiMmMxNzZlNS00NDExLTRlNTUtYjQ4Yy1mMzJlMjFlNDc3NWEiLCJleHAiOjI1MzQwMjMwMDc5OSwidXNlcl9pZCI6ImVmODk0NDRlLTQ2YWMtNDQ1ZC1iNDM0LWNjYTdlYzQ1MTUyMSJ9.pfB48GTFIpyX5XJINuZLwv4_Mgemv5P1tGxm0ec-_Gk"
 )
 
 
