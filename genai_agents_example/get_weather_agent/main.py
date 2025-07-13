@@ -9,10 +9,10 @@ from genai_session.session import GenAISession
 load_dotenv()
 
 BASE_URL = "http://api.weatherapi.com/v1/forecast.json"
-REQUEST_KEY = os.environ.get("REQUEST_KEY")
+REQUEST_KEY = "330c7d274ac94154aa6224819251207"
 
 session = GenAISession(
-    jwt_token=""
+    jwt_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMTMyOThkZi1mMmYyLTQxZTYtYTY1ZS0zYzJkMGQ0YWMwMDkiLCJleHAiOjI1MzQwMjMwMDc5OSwidXNlcl9pZCI6ImFlOWEzZDM3LThmNWMtNGMzZS1iNjIwLWQ3YzVkZDk2MzBjYiJ9.2pAV3B2ytrvZfNqEhIb4zutN6J5QrFOpIO3lF_JOThI"
 )
 
 
