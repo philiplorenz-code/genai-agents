@@ -583,7 +583,7 @@ async def god_level_knowledge_orchestrator(
     """
     
     execution_start = datetime.now()
-    console.print(f"[bold green]🚀 Real God_Level Agent Activated: god_level_knowledge_orchestrator[/bold green]")
+    console.print("[bold green]🚀 Real God_Level Agent Activated: god_level_knowledge_orchestrator[/bold green]")
     console.print(f"[cyan]Task: {task_description}[/cyan]")
     console.print(f"[yellow]Mode: {execution_mode}[/yellow]")
     
@@ -696,7 +696,7 @@ async def god_level_knowledge_orchestrator(
         
     except Exception as e:
         error_duration = (datetime.now() - execution_start).total_seconds()
-        logger.error(f"Real god_level agent execution failed", error=str(e), duration=error_duration)
+        logger.error("Real god_level agent execution failed", error=str(e), duration=error_duration)
         
         console.print(f"[bold red]❌ Execution failed: {str(e)}[/bold red]")
         
@@ -716,9 +716,9 @@ async def god_level_knowledge_orchestrator(
 
 async def main():
     """Main entry point for the real god_level agent"""
-    console.print(f"[bold cyan]🌟 god_level_knowledge_orchestrator - Real God_Level Agent Ready[/bold cyan]")
+    console.print("[bold cyan]🌟 god_level_knowledge_orchestrator - Real God_Level Agent Ready[/bold cyan]")
     console.print(f"[dim]Agent Token: {AGENT_JWT[:20]}...[/dim]")
-    console.print(f"[dim]Mode: Real God_Level Autonomous Intelligence[/dim]")
+    console.print("[dim]Mode: Real God_Level Autonomous Intelligence[/dim]")
     
     # // Check API configuration
     api_keys = {
