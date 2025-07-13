@@ -4,7 +4,7 @@ from typing import Any, Annotated
 from genai_session.session import GenAISession
 
 session = GenAISession(
-    jwt_token=""
+    jwt_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjYzRiM2Q2NC00YWU3LTRhNjUtYTllMC00ZjEzYWNjYmM0OGIiLCJleHAiOjI1MzQwMjMwMDc5OSwidXNlcl9pZCI6ImFlOWEzZDM3LThmNWMtNGMzZS1iNjIwLWQ3YzVkZDk2MzBjYiJ9.mjkCZH7Ch_AQcLVFvNvek1D5CAqzHVErOhp-LfRANkc"
 )
 
 
