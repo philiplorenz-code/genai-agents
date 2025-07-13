@@ -10,11 +10,11 @@ from genai_session.utils.context import GenAIContext
 
 # Load environment variables from .env
 load_dotenv()
-print("OpenAI key:", os.getenv("OPENAI_API_KEY"))
-print("🔑 OPENAI_API_KEY loaded:", os.getenv("OPENAI_API_KEY") is not None)
+# print("OpenAI key:", os.getenv("OPENAI_API_KEY"))
+# print("🔑 OPENAI_API_KEY loaded:", os.getenv("OPENAI_API_KEY") is not None)
 
 # Set up GenAI agent session
-AGENT_JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjYjE0ZmQ4ZS0zNWE5LTQzYWUtYTJjZi0yZWVjMTFjNWYxYjUiLCJleHAiOjI1MzQwMjMwMDc5OSwidXNlcl9pZCI6ImVmODk0NDRlLTQ2YWMtNDQ1ZC1iNDM0LWNjYTdlYzQ1MTUyMSJ9.YD2cTSc6bCLooYF_vfGyYZ4zcQiuL3gasw9RwMh2Uhw"  # replace with your actual token
+AGENT_JWT=os.getenv("AGENT_JWT")
 session = GenAISession(jwt_token=AGENT_JWT)
 
 # Instantiate OpenAI client
