@@ -3,7 +3,7 @@ from typing import Annotated,Optional,List,Dict
 from genai_session.session import GenAISession
 from genai_session.utils.context import GenAIContext
 
-AGENT_JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5ZDMzYzEzYS1lYzI2LTQ2ZjctOTJkZi0wOGNlNzE0NzY2ZTUiLCJleHAiOjI1MzQwMjMwMDc5OSwidXNlcl9pZCI6ImVmODk0NDRlLTQ2YWMtNDQ1ZC1iNDM0LWNjYTdlYzQ1MTUyMSJ9._3QvA1vsEjCpzT0x_9NaKByctNUJSPYsnRx0vdGV8lo" # noqa: E501
+AGENT_JWT = "" # noqa: E501
 session = GenAISession(jwt_token=AGENT_JWT)
 
 # Define a standard requirement schema
